@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import urlDarksky from "../config.json";
+import therm from "./Images/Thermometer.svg";
+import clouds from "./Images/Clouds.svg";
 
 class Details extends Component {
   state = {
@@ -22,18 +24,22 @@ class Details extends Component {
         {this.state.place_info === null ? null : (
           <div className="place_info">
             <div className="current_info">
-              Temperature:{" "}
-              {Math.round(
-                (this.state.place_info.currently.temperature - 32) / 1.8
-              )}{" "}
-              ºC
+              <img src={therm} alt="" className="image" />
+              <p className="info">
+                {Math.round(
+                  (this.state.place_info.currently.temperature - 32) / 1.8
+                )}{" "}
+                ºC
+              </p>
             </div>
             <div className="current_info">
-              Rain Probability:{" "}
-              {Math.round(
-                this.state.place_info.currently.precipProbability * 100
-              )}{" "}
-              %
+              <img src={clouds} alt="" className="image" />
+              <p className="info">
+                {Math.round(
+                  this.state.place_info.currently.precipProbability * 100
+                )}{" "}
+                %
+              </p>
             </div>
           </div>
         )}

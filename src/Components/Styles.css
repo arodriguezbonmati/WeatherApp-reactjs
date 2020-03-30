@@ -41,7 +41,7 @@
 }
 
 .current_info {
-    text-align: left;
-    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
