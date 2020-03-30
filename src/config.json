@@ -1,0 +1,11 @@
+{
+    "darksky": {
+      "api_key": "17d46d585b1acd84e3a4617e34de8de9",
+      "base_url": "https://api.darksky.net/forecast/",
+      "proxy": "https://cors-anywhere.herokuapp.com/"
+    },
+    "mapbox": {
+      "access_token": "pk.eyJ1IjoiYXJvZHJpZ3VlemI0IiwiYSI6ImNrMWFucmIweTAxcWIzaXA0aGFia285djEifQ.hX7vlRLdPwYu02VLxhQLzw",
+      "base_url": "https://api.mapbox.com/geocoding/v5/mapbox.places/"
+    }
+  }

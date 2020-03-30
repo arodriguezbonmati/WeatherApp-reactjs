@@ -1,0 +1,47 @@
+.input_name {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.clickSearch {
+    margin-left: 5px;
+    padding: 2px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.inputPlace {
+    padding: 2px;
+    width: 189px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.show {
+    border: 1px solid #f2f3f4;
+    width: 250px;
+    margin: 5px auto 5px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f2f3f4;
+}
+
+.show:hover{
+    background-color: rgb(195, 195, 199)
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+}
+
+.place_info {
+    margin: 143px 10px 0 10px;
+}
+
+.current_info {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
